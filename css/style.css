@@ -359,8 +359,8 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background:#fd7e14;
-    color:#fd7e14;
+    background: #fd7e14 !important;
+    color: var(--bs-light) !important;
     font-size: 30px;
     display: flex;
     align-items: center;

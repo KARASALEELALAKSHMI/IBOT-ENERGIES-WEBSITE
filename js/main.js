@@ -25,22 +25,37 @@
         }
     });
 
-
-    // Hero Header carousel
+// Hero Header carousel
 $(".header-carousel").owlCarousel({
-    items: 1,
     autoplay: true,
-    autoplayTimeout: 4000,  // Adjust time interval for slower effect
-    smartSpeed: 1500,       // Slower sliding speed
-    dots: false,
+    smartSpeed: 1000,
+    center: true,
+    dots: true,
     loop: true,
+    margin: 25,
     nav: true,
     navText: [
         '<i class="bi bi-arrow-left"></i>',
         '<i class="bi bi-arrow-right"></i>'
     ],
-    animateOut: 'fadeOut',  // Remove vertical slide effect
-    animateIn: 'slideInRight' 
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        576: {
+            items: 1
+        },
+        768: {
+            items: 1
+        },
+        992: {
+            items: 1
+        },
+        1200: {
+            items: 1
+        }
+    }
 });
 
     // International carousel

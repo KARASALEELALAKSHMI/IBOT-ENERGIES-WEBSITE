@@ -359,8 +359,8 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: var(--bs-primary);
-    color: var(--bs-white);
+    background:#fd7e14;
+    color:#fd7e14;
     font-size: 30px;
     display: flex;
     align-items: center;
@@ -380,7 +380,7 @@
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
     background: var(--bs-light) !important;
-    color: var(--bs-primary) !important;
+    color: #fd7e14 !important;
 }
 
 /*** Carousel Change ***/
